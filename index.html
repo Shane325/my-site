@@ -1,64 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Shane Barry</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
 
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <!-- vendor css files -->
+  <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+  <link rel="stylesheet" type="text/css" href="/vendors/css/ionicons.min.css">
+  <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
 
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/app.css">
-
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
+  <!-- resources css files -->
+  <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,300i,400" rel="stylesheet">
+  <title>Shane Barry</title>
 
 </head>
+
 <body>
+  <header>
+    <nav>
+      <div class="row">
+        <ul class="main-nav">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="hero-text-box">
+      <h1>Shane Barry</h1>
+    </div>
+  </header>
 
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<div class="container">	
-		<div id="logo" class="twelve columns">
-			<h3>Shane Barry</h3>
-		</div>
-    
-		<div id="nav" class="twelve columns">
-			<ul>
-				<li><a href="https://twitter.com/Shane_Bar">Twitter</a></li>
-				<li><a href="https://www.linkedin.com/in/shane325">LinkedIn</a></li>
-				<li><a href="https://github.com/Shane325">Github</a></li>
-			</ul>
-		</div>
-    
-		<div id="theText" class="six columns">
-			<h1>About me</h1>
-			<p>I'm a software developer living in San Francisco, CA. </p>
-			
-			<p>Drop me an email at <u>Shane325@gmail.com</u> or checkout my Github account to see what I'm working on.</p>
-		</div>
-		
-		<div id="bigphoto" class="five columns add-bottom offset-by-one">
-			<img src="images/profile.png" />
-		</div>
-	
-	</div><!-- container -->
+  <section class="section-about">
+    <div class="row">
+      <h2>About Me</h2>
+    </div>
+    <div class="row">
+      <div class="col span-1-of-2 bio-box">
+        <img src="resources/img/profile-pic.jpeg" alt="profile picture" class="profile-img img-circle">
+      </div>
+      <div class="col span-1-of-2 bio-box">
+        <div class="bio-step">
+          <i class="ion-ios-home-outline"></i>
+          <p>Originally from Ireland</p>
+        </div>
+        <div class="bio-step">
+          <i class="ion-ios-location-outline"></i>
+          <p>Living in San Francisco, CA</p>
+        </div>
+        <div class="bio-step">
+          <i class="ion-ios-calendar-outline"></i>
+          <p>28 years old</p>
+        </div>
+        <div class="bio-step">
+          <i class="ion-ios-briefcase-outline"></i>
+          <p>Software Development, Web Development, Desktop Support</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <section class="section-portfolio">
+    <div class="row">
+      <h2>Portfolio</h2>
+    </div>
+    <div class="row portfolio-row">
+      <div class="col span-1-of-2 portfolio-box-text">
+        <h3>Build Easy</h3>
+        <p>Build Easy is a Cost Tracking Application. It was built and designed for small to medium sized construction companies and general contractors.</p>
+        <a class="btn btn-ghost" href="http://www.buildeasyapp.com">Visit website</a>
+      </div>
+      <div class="col span-1-of-2 portfolio-box-img">
+        <img src="resources/img/macbook_buildeasy.png" alt="macbook and iphone" class="device-img">
+      </div>
+    </div>
+    <div class="divider"></div>
+    <div class="row portfolio-row">
+      <div class="col span-1-of-2 portfolio-box-img">
+        <img src="resources/img/macbook_buildeasy.png" alt="macbook and iphone" class="device-img">
+      </div>
+      <div class="col span-1-of-2 portfolio-box-text">
+        <h3>Bushido Fight Team</h3>
+        <p>Bushido Fight Team is a martial arts gym in San Francisco that specializes in Brazilian Jiu Jitsu and Muay Thai.</p>
+        <a class="btn btn-ghost" href="http://www.bushidofightteam.com">Visit website</a>
+      </div>
+    </div>
+    <div class="divider"></div>
+    <div class="row portfolio-row">
+      <div class="col span-1-of-2 portfolio-box-text">
+        <h3>MOS Construction</h3>
+        <p>Build Easy is a Cost Tracking Application. It was built and designed for small to medium sized construction companies and general contractors.</p>
+        <a class="btn btn-ghost" href="http://www.buildeasyapp.com">Visit website</a>
+      </div>
+      <div class="col span-1-of-2 portfolio-box-img">
+        <img src="resources/img/macbook_buildeasy.png" alt="macbook and iphone" class="device-img">
+      </div>
+    </div>
+  </section>
+  
+  <section class="section-contact">
+    
+  </section>
+
 </body>
+
 </html>
